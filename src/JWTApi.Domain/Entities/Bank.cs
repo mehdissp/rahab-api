@@ -18,5 +18,24 @@ namespace JWTApi.Domain.Entities
         public bool IsDeleted { get; set; } = false;
         public ICollection<BankCompany> BankCompanies { get; set; } = new List<BankCompany>();
 
+        public void create(string name,string address,string phone,string desc,string userId)
+        {
+            Name = name;
+            Address = address;
+            Phone = phone;
+            DescriptionRows = desc;
+            UserId = Guid.Parse(userId);
+
+        }
+        public void update(int id,string name, string address, string phone, string desc, string userId)
+        {
+            Name = name;
+            Address = address;
+            Phone = phone;
+            DescriptionRows = desc;
+            UserId = Guid.Parse(userId);
+            Id = id;
+        }
+
     }
 }

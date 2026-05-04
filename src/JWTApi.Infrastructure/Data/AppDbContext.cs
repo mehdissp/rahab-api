@@ -29,10 +29,11 @@ namespace JWTApi.Infrastructure.Data
         public DbSet<ProjectUser> ProjectUsers { get; set; }
 
         public DbSet<Company> Companies { get; set; }
+        public DbSet<Bank> Banks { get; set; }
 
 
 
-        
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

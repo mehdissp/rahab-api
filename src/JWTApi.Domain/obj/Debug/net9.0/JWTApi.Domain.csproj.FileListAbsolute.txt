@@ -23,3 +23,4 @@ D:\api\rahab\api-test1\src\JWTApi.Domain\obj\Debug\net9.0\JWTApi.Domain.dll
 D:\api\rahab\api-test1\src\JWTApi.Domain\obj\Debug\net9.0\refint\JWTApi.Domain.dll
 D:\api\rahab\api-test1\src\JWTApi.Domain\obj\Debug\net9.0\JWTApi.Domain.pdb
 D:\api\rahab\api-test1\src\JWTApi.Domain\obj\Debug\net9.0\ref\JWTApi.Domain.dll
+D:\api\rahab\api-test1\src\JWTApi.Domain\obj\Debug\net9.0\JWTApi.Domain.sourcelink.json

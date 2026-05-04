@@ -259,6 +259,7 @@
 using JwtApi.Api.Middleware;
 using JWTApi.Api.Middleware;
 using JWTApi.Application.Services;
+using JWTApi.Application.Services.Banks;
 using JWTApi.Application.Services.Companies;
 using JWTApi.Application.Services.Menus;
 
@@ -266,6 +267,7 @@ using JWTApi.Application.Services.Roles;
 
 using JWTApi.Domain.Entities;
 using JWTApi.Domain.Interfaces;
+using JWTApi.Domain.Interfaces.Banks;
 using JWTApi.Domain.Interfaces.Companies;
 using JWTApi.Domain.Interfaces.Menus;
 
@@ -274,6 +276,7 @@ using JWTApi.Domain.Interfaces.Roles;
 using JWTApi.Domain.Interfaces.TokenBlacklist;
 using JWTApi.Infrastructure.Data;
 using JWTApi.Infrastructure.Repositories;
+using JWTApi.Infrastructure.Repositories.Banks;
 using JWTApi.Infrastructure.Repositories.Companies;
 using JWTApi.Infrastructure.Repositories.Menus;
 using JWTApi.Infrastructure.Repositories.Roles;
@@ -387,6 +390,7 @@ static void ConfigureDependencies(WebApplicationBuilder builder)
 
     builder.Services.AddScoped<IUnitOfWork, UnitOfWorkRepository>();
     builder.Services.AddScoped<IBaleRepository, BaleRepository>();
+    builder.Services.AddScoped<IBankRepository, BankRepository>();
 
     builder.Services.AddScoped<IRoleRespository, RoleRepository>();
 
@@ -394,6 +398,7 @@ static void ConfigureDependencies(WebApplicationBuilder builder)
 
     builder.Services.AddScoped<CompanyService>();
     builder.Services.AddScoped<RoleService>();
+    builder.Services.AddScoped<BankService>();
 
     builder.Services.AddScoped<MenuService>();
 

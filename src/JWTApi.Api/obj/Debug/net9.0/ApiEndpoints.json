@@ -146,6 +146,70 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "JWTApi.Api.Controllers.BankController",
+    "Method": "Delete",
+    "RelativePath": "api/Bank/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.BankController",
+    "Method": "GetBankDtosAsync",
+    "RelativePath": "api/Bank/GetBank",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "JWTApi.Api.ViewModels.PageSizeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.BankController",
+    "Method": "Insert",
+    "RelativePath": "api/Bank/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bankViewModel",
+        "Type": "JWTApi.Api.ViewModels.Bank.BankViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.BankController",
+    "Method": "Update",
+    "RelativePath": "api/Bank/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bankViewModel",
+        "Type": "JWTApi.Api.ViewModels.Bank.BankViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "JWTApi.Api.Controllers.CompanyController",
     "Method": "Delete",
     "RelativePath": "api/Company/Delete",
