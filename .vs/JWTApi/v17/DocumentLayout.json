@@ -1,0 +1,1263 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\api\\rahab\\api-test1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\repositories\\unitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\repositories\\unitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\services\\companies\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\services\\companies\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\interfaces\\companies\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\interfaces\\companies\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\repositories\\companies\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\repositories\\companies\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\viewmodels\\project\\projectaddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\viewmodels\\project\\projectaddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\interfaces\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\interfaces\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\dtos\\company\\companydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\dtos\\company\\companydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\viewmodels\\company\\companyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\viewmodels\\company\\companyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\middleware\\menupermissionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\middleware\\menupermissionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\helper\\mappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\helper\\mappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\repositories\\menus\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\repositories\\menus\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\dtos\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\dtos\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\services\\menus\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\services\\menus\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\migrations\\20260504045819_mig-addtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\migrations\\20260504045819_mig-addtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260504045438_mig-addtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\JWTApi.Infrastructure\\Migrations\\20260504045438_mig-addtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\financial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\financial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\bankcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\bankcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\financialcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\financialcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\rolemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\rolemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\shared\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\shared\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\projectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\projectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\helper\\datetimehelperdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\helper\\datetimehelperdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\helper\\datetimehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\helper\\datetimehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\dtos\\realestates\\realestatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\dtos\\realestates\\realestatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\dtos\\categories\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\dtos\\categories\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\exceptions\\restbasedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\exceptions\\restbasedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\migrations\\20260219062824_addimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\migrations\\20260219062824_addimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\interfaces\\menus\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\interfaces\\menus\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\interfaces\\ibalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\interfaces\\ibalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\helper\\ishouserelated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\helper\\ishouserelated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\viewmodels\\housecheckrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\viewmodels\\housecheckrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\jwtapi.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\jwtapi.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\jwtapi.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\jwtapi.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\helper\\shamsitomiladiconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\helper\\shamsitomiladiconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\migrations\\20260209101318_mig-editrealesatete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\migrations\\20260209101318_mig-editrealesatete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.application\\dtos\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC40E89-8BFF-44B2-8D0D-4CACA853569A}|src\\JWTApi.Application\\JWTApi.Application.csproj|solutionrelative:src\\jwtapi.application\\dtos\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\extentions\\appdbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\extentions\\appdbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\repositories\\balerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\repositories\\balerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\api\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208055031_mig-addFacilitiesand...cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\api\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208054901_mig-addFacilitiesand...cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\middleware\\permissionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\middleware\\permissionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\jwtapi.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\jwtapi.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1E01BA-1B9D-436D-8D0F-AFC11B81AC57}|src\\JWTApi.Api\\JWTApi.Api.csproj|solutionrelative:src\\jwtapi.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.domain\\entities\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7FBB4E-7A4C-4278-B976-BE310196F908}|src\\JWTApi.Domain\\JWTApi.Domain.csproj|solutionrelative:src\\jwtapi.domain\\entities\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\migrations\\20260207060159_mig-adddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\migrations\\20260207060159_mig-adddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\migrations\\20260207061407_mig-edituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\migrations\\20260207061407_mig-edituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\migrations\\20260208082025_mig-match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\migrations\\20260208082025_mig-match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\migrations\\20260207123458_mig-addregion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\migrations\\20260207123458_mig-addregion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\migrations\\20260207120435_mig-addfica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\migrations\\20260207120435_mig-addfica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|d:\\api\\rahab\\api-test1\\src\\jwtapi.infrastructure\\migrations\\20260221101540_mig-addisbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A80C45-E0C2-404A-94DB-B3194B41440A}|src\\JWTApi.Infrastructure\\JWTApi.Infrastructure.csproj|solutionrelative:src\\jwtapi.infrastructure\\migrations\\20260221101540_mig-addisbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\Controllers\\CompanyController.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "src\\JWTApi.Api\\Controllers\\CompanyController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA4wEcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:45:21.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Interfaces\\Companies\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Interfaces\\Companies\\ICompanyRepository.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Interfaces\\Companies\\ICompanyRepository.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Interfaces\\Companies\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAewBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:09:21.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\Companies\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Repositories\\Companies\\CompanyRepository.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\Companies\\CompanyRepository.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Repositories\\Companies\\CompanyRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:18:39.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\Project.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Project.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T03:57:49.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Services\\Companies\\CompanyService.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\Services\\Companies\\CompanyService.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Services\\Companies\\CompanyService.cs",
+              "RelativeToolTip": "src\\JWTApi.Application\\Services\\Companies\\CompanyService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAEwDAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:31:06.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAtwFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T09:02:32.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitOfWorkRepository.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\UnitOfWorkRepository.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Repositories\\UnitOfWorkRepository.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\UnitOfWorkRepository.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Repositories\\UnitOfWorkRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAtwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:57:05.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\Controllers\\ProjectController.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "src\\JWTApi.Api\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowEsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:58:16.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\Services\\ProjectService.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Services\\ProjectService.cs",
+              "RelativeToolTip": "src\\JWTApi.Application\\Services\\ProjectService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAD4vzEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:57:38.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAD4v+wAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:53:55.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Interfaces\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Interfaces\\IProjectRepository.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Interfaces\\IProjectRepository.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Interfaces\\IProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:53:46.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAUwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:18:36.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Company.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Company.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\Company.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Company.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\Company.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA5wBYAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T03:58:06.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\Program.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Program.cs",
+              "RelativeToolTip": "src\\JWTApi.Api\\Program.cs",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAowIoBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:58:41.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectAddViewModel.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\ViewModels\\Project\\ProjectAddViewModel.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\ViewModels\\Project\\ProjectAddViewModel.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\ViewModels\\Project\\ProjectAddViewModel.cs",
+              "RelativeToolTip": "src\\JWTApi.Api\\ViewModels\\Project\\ProjectAddViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:14:15.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CompanyDtos.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Dtos\\Company\\CompanyDtos.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Dtos\\Company\\CompanyDtos.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Dtos\\Company\\CompanyDtos.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Dtos\\Company\\CompanyDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:16:15.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CompanyViewModel.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\ViewModels\\Company\\CompanyViewModel.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\ViewModels\\Company\\CompanyViewModel.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\ViewModels\\Company\\CompanyViewModel.cs",
+              "RelativeToolTip": "src\\JWTApi.Api\\ViewModels\\Company\\CompanyViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:48:23.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MenuPermissionMiddleware.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Middleware\\MenuPermissionMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Middleware\\MenuPermissionMiddleware.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Middleware\\MenuPermissionMiddleware.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Middleware\\MenuPermissionMiddleware.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAEwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:18:43.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Mappers.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Helper\\Mappers.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\Helper\\Mappers.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Helper\\Mappers.cs",
+              "RelativeToolTip": "src\\JWTApi.Application\\Helper\\Mappers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T08:14:49.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MenuRepository.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\Menus\\MenuRepository.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Repositories\\Menus\\MenuRepository.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\Menus\\MenuRepository.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Repositories\\Menus\\MenuRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:19:30.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Dtos\\PagedResult.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Dtos\\PagedResult.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Dtos\\PagedResult.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Dtos\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:08:32.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "src\\JWTApi.Api\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:59:14.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Services\\Menus\\MenuService.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\Services\\Menus\\MenuService.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Services\\Menus\\MenuService.cs",
+              "RelativeToolTip": "src\\JWTApi.Application\\Services\\Menus\\MenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:30:57.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\JWTApi.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAEwH4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T06:03:09.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Bank.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\Bank.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Bank.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\Bank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:11:23.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Financial.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Financial.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\Financial.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Financial.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\Financial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:21:10.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wBkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:25:09.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\appsettings.json",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\appsettings.json",
+              "RelativeToolTip": "src\\JWTApi.Api\\appsettings.json",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-07T05:56:20.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "src\\JWTApi.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAtwEwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T09:23:00Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20260504045819_mig-addtable.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260504045819_mig-addtable.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Migrations\\20260504045819_mig-addtable.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260504045819_mig-addtable.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Migrations\\20260504045819_mig-addtable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:58:19.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BankCompany.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\BankCompany.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\BankCompany.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\BankCompany.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\BankCompany.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:26:32.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FinancialCompany.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\FinancialCompany.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\FinancialCompany.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\FinancialCompany.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\FinancialCompany.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:35:02.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20260504045438_mig-addtable.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260504045438_mig-addtable.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Migrations\\20260504045438_mig-addtable.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260504045438_mig-addtable.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Migrations\\20260504045438_mig-addtable.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwEsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:54:38.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\Role.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:38:45.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Shared\\Enums.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Shared\\Enums.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Shared\\Enums.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Shared\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:22:28.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProjectUser.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\ProjectUser.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\ProjectUser.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\ProjectUser.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\ProjectUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:26:11.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Region.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Region.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\Region.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Region.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T12:25:36.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RoleMenu.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\RoleMenu.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\RoleMenu.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\RoleMenu.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\RoleMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:26:18.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Menu.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\Menu.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Menu.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\Menu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T11:33:10.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DateTimeHelper.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Helper\\DateTimeHelper.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\Helper\\DateTimeHelper.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Helper\\DateTimeHelper.cs",
+              "RelativeToolTip": "src\\JWTApi.Application\\Helper\\DateTimeHelper.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAiwIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T08:43:18.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DateTimeHelperDomain.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Helper\\DateTimeHelperDomain.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Helper\\DateTimeHelperDomain.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Helper\\DateTimeHelperDomain.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Helper\\DateTimeHelperDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T08:47:03.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RealEstateDto.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\DTOs\\RealEstates\\RealEstateDto.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\DTOs\\RealEstates\\RealEstateDto.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\DTOs\\RealEstates\\RealEstateDto.cs",
+              "RelativeToolTip": "src\\JWTApi.Application\\DTOs\\RealEstates\\RealEstateDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:35:21.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "20260221101540_mig-addisbanner.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260221101540_mig-addisbanner.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Migrations\\20260221101540_mig-addisbanner.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260221101540_mig-addisbanner.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Migrations\\20260221101540_mig-addisbanner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:15:41.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\JWTApi.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAASwIwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:14:55.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Attachment.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Attachment.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\Attachment.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Attachment.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\Attachment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:26:22.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\DTOs\\Categories\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\DTOs\\Categories\\CategoryDto.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\DTOs\\Categories\\CategoryDto.cs",
+              "RelativeToolTip": "src\\JWTApi.Application\\DTOs\\Categories\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T08:15:45.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RestBasedException.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Exceptions\\RestBasedException.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Exceptions\\RestBasedException.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Exceptions\\RestBasedException.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Exceptions\\RestBasedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T09:26:55.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20260219062824_addimage.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260219062824_addimage.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Migrations\\20260219062824_addimage.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260219062824_addimage.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Migrations\\20260219062824_addimage.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:28:25.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IMenuRepository.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Interfaces\\Menus\\IMenuRepository.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Interfaces\\Menus\\IMenuRepository.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Interfaces\\Menus\\IMenuRepository.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Interfaces\\Menus\\IMenuRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:03:30.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IBaleRepository.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Interfaces\\IBaleRepository.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Interfaces\\IBaleRepository.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Interfaces\\IBaleRepository.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Interfaces\\IBaleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:03:25.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ShamsiToMiladiConverter.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Helper\\ShamsiToMiladiConverter.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\Helper\\ShamsiToMiladiConverter.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Helper\\ShamsiToMiladiConverter.cs",
+              "RelativeToolTip": "src\\JWTApi.Application\\Helper\\ShamsiToMiladiConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T05:19:54.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IsHouseRelated.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Helper\\IsHouseRelated.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\Helper\\IsHouseRelated.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\Helper\\IsHouseRelated.cs",
+              "RelativeToolTip": "src\\JWTApi.Application\\Helper\\IsHouseRelated.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T05:18:17.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "JWTApi.Application.csproj",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\JWTApi.Application.csproj",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\JWTApi.Application.csproj",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\JWTApi.Application.csproj",
+              "RelativeToolTip": "src\\JWTApi.Application\\JWTApi.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-19T05:26:00.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "HouseCheckRequest.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\ViewModels\\HouseCheckRequest.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\ViewModels\\HouseCheckRequest.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\ViewModels\\HouseCheckRequest.cs",
+              "RelativeToolTip": "src\\JWTApi.Api\\ViewModels\\HouseCheckRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T05:27:33.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "JWTApi.Api.csproj",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\JWTApi.Api.csproj",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\JWTApi.Api.csproj",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\JWTApi.Api.csproj",
+              "RelativeToolTip": "src\\JWTApi.Api\\JWTApi.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-07T06:03:01.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20260209101318_mig-editrealesatete.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260209101318_mig-editrealesatete.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Migrations\\20260209101318_mig-editrealesatete.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260209101318_mig-editrealesatete.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Migrations\\20260209101318_mig-editrealesatete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T10:13:19.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UserDtos.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\DTOs\\UserDtos.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Application\\DTOs\\UserDtos.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\DTOs\\UserDtos.cs",
+              "RelativeToolTip": "src\\JWTApi.Application\\DTOs\\UserDtos.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA3wCAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T09:56:51.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Permission.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\Permission.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\Permission.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:25:48.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AppDbContextExtensions.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Extentions\\AppDbContextExtensions.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Extentions\\AppDbContextExtensions.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Extentions\\AppDbContextExtensions.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Extentions\\AppDbContextExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T09:27:00.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "BaleRepository.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\BaleRepository.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Repositories\\BaleRepository.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Repositories\\BaleRepository.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Repositories\\BaleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T09:12:02.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20260208082025_mig-match.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208082025_mig-match.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Migrations\\20260208082025_mig-match.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208082025_mig-match.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Migrations\\20260208082025_mig-match.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T08:20:26.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20260208055031_mig-addFacilitiesand...cs",
+              "DocumentMoniker": "D:\\api\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208055031_mig-addFacilitiesand...cs",
+              "RelativeDocumentMoniker": "..\\..\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208055031_mig-addFacilitiesand...cs",
+              "ToolTip": "D:\\api\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208055031_mig-addFacilitiesand...cs",
+              "RelativeToolTip": "..\\..\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208055031_mig-addFacilitiesand...cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T05:50:31.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20260208054901_mig-addFacilitiesand...cs",
+              "DocumentMoniker": "D:\\api\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208054901_mig-addFacilitiesand...cs",
+              "RelativeDocumentMoniker": "..\\..\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208054901_mig-addFacilitiesand...cs",
+              "ToolTip": "D:\\api\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208054901_mig-addFacilitiesand...cs",
+              "RelativeToolTip": "..\\..\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260208054901_mig-addFacilitiesand...cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T05:49:01.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20260207123458_mig-addregion.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260207123458_mig-addregion.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Migrations\\20260207123458_mig-addregion.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260207123458_mig-addregion.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Migrations\\20260207123458_mig-addregion.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T12:34:59.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20260207120435_mig-addfica.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260207120435_mig-addfica.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Migrations\\20260207120435_mig-addfica.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260207120435_mig-addfica.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Migrations\\20260207120435_mig-addfica.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T12:04:36.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\UserRole.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\UserRole.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:26:20.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "PermissionMiddleware.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Middleware\\PermissionMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Middleware\\PermissionMiddleware.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Middleware\\PermissionMiddleware.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Middleware\\PermissionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:18:45.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T10:24:01.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "src\\JWTApi.Api\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:58:31.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20260207061407_mig-edituser.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260207061407_mig-edituser.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Migrations\\20260207061407_mig-edituser.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260207061407_mig-edituser.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Migrations\\20260207061407_mig-edituser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T06:14:07.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20260207060159_mig-addDb.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260207060159_mig-addDb.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Infrastructure\\Migrations\\20260207060159_mig-addDb.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Infrastructure\\Migrations\\20260207060159_mig-addDb.cs",
+              "RelativeToolTip": "src\\JWTApi.Infrastructure\\Migrations\\20260207060159_mig-addDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T06:01:59.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "JWTApi.Api",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\JWTApi.Api.csproj",
+              "RelativeDocumentMoniker": "src\\JWTApi.Api\\JWTApi.Api.csproj",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Api\\JWTApi.Api.csproj",
+              "RelativeToolTip": "src\\JWTApi.Api\\JWTApi.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-07T06:03:32.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RolePermission.cs",
+              "DocumentMoniker": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\RolePermission.cs",
+              "RelativeDocumentMoniker": "src\\JWTApi.Domain\\Entities\\RolePermission.cs",
+              "ToolTip": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Domain\\Entities\\RolePermission.cs",
+              "RelativeToolTip": "src\\JWTApi.Domain\\Entities\\RolePermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:26:14.586Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
