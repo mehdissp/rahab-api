@@ -33,3 +33,4 @@ D:\api\rahab\api-test1\src\JWTApi.Application\obj\Debug\net9.0\JWTApi.Applicatio
 D:\api\rahab\api-test1\src\JWTApi.Application\obj\Debug\net9.0\refint\JWTApi.Application.dll
 D:\api\rahab\api-test1\src\JWTApi.Application\obj\Debug\net9.0\JWTApi.Application.pdb
 D:\api\rahab\api-test1\src\JWTApi.Application\obj\Debug\net9.0\ref\JWTApi.Application.dll
+D:\api\rahab\api-test1\src\JWTApi.Application\obj\Debug\net9.0\JWTApi.Application.sourcelink.json

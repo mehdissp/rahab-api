@@ -36,7 +36,8 @@ namespace JWTApi.Application.Services
         public async Task<(List<ProjectWithPackageInfoDto> Items, int TotalCount, int TotalPages,bool CheckAccess,bool CheckAccessDelete,bool CheckAccessAssigner)> GetProjectsAsync(string userId,string roleId ,  int pageNumber,
              int pageSize, CancellationToken cancellationToken)
         {
-            return await _projectRepository.GetProjectsWithPackageInfo(userId, roleId, pageNumber,pageSize, cancellationToken);
+            var t= await _projectRepository.GetProjectsWithPackageInfo(userId, roleId, pageNumber,pageSize, cancellationToken);
+            return t;
         }
 
 

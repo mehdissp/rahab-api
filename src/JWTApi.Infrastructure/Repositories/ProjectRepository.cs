@@ -80,41 +80,41 @@ namespace JWTApi.Infrastructure.Repositories
 
             var skip = (pageNumber - 1) * pageSize;
 
-            var baseQuery = _context.ProjectUsers
-                .Where(s => (s.UserId.ToString() == GetUserIdManager(userId) ) );
-              //  .Include(s => s.User)
-                //    .ThenInclude(u => u.UserPackages)
-                 //   .ThenInclude(up => up.Package);
+            var userIdStr = GetUserIdManager(userId); // یکبار محاسبه شود
+
+            var baseQuery = _context.Projects
+                .Where(s => s.UserId.ToString() == userIdStr && s.IsDeleted==false);
 
             var totalCount = await baseQuery.CountAsync(cancellationToken);
             var totalPages = (int)Math.Ceiling(totalCount / (double)pageSize);
 
-            var baseQueryOrdered = baseQuery
-                                           .Skip(skip)
-                                           .Take(pageSize);
+            var projects = await baseQuery
+                .Skip(skip)
+                .Take(pageSize)
+                .ToListAsync(cancellationToken);
 
-            var hasAccess =await HasMenuAccessAsync(roleId, "/api/Project/InsertProject", cancellationToken);
+            // دسترسی‌ها یکبار محاسبه شوند
+            var hasAccess = await HasMenuAccessAsync(roleId, "/api/Project/InsertProject", cancellationToken);
             var hasAccessDelete = await HasMenuAccessAsync(roleId, "/api/Project/DeleteProject", cancellationToken);
             var hasAccessAssigner = await HasMenuAccessAsync(roleId, "/api/User/GetProjectUsers", cancellationToken);
 
-
-            var query = baseQueryOrdered.Select(s => new
+            var result = projects.Select(s => new
             {
                 Project = s,
-             
                 CheckAccess = hasAccess,
-                CheckAccessDelete= hasAccessDelete,
-                CheckAccessAssigner= hasAccessAssigner
+                CheckAccessDelete = hasAccessDelete,
+                CheckAccessAssigner = hasAccessAssigner
             });
 
 
-            var result = await query.ToListAsync(cancellationToken);
             
 
             var items = result.Select((item, index) => new ProjectWithPackageInfoDto
             {
           
-           
+            Name=item.Project.Name,
+            Id=item.Project.Id,
+            CreatedAt=item.Project.CreatedAt,
                 CheckAccess=item.CheckAccess,
                 CheckAccessDelete=item.CheckAccessDelete,
                 CheckAccessAssigner=item.CheckAccessAssigner,

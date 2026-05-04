@@ -33,3 +33,4 @@ D:\api\rahab\api-test1\src\JWTApi.Infrastructure\obj\Debug\net9.0\refint\JWTApi.
 D:\api\rahab\api-test1\src\JWTApi.Infrastructure\obj\Debug\net9.0\JWTApi.Infrastructure.pdb
 D:\api\rahab\api-test1\src\JWTApi.Infrastructure\obj\Debug\net9.0\JWTApi.Infrastructure.genruntimeconfig.cache
 D:\api\rahab\api-test1\src\JWTApi.Infrastructure\obj\Debug\net9.0\ref\JWTApi.Infrastructure.dll
+D:\api\rahab\api-test1\src\JWTApi.Infrastructure\obj\Debug\net9.0\JWTApi.Infrastructure.sourcelink.json
