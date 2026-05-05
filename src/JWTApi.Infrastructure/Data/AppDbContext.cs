@@ -34,8 +34,9 @@ namespace JWTApi.Infrastructure.Data
         public DbSet<BankCompany> BankCompanies { get; set; }
         public DbSet<FinancialCompany> FinancialCompanies { get; set; }
         public DbSet<Financial> Financials { get; set; }
+        public DbSet<FinancialOperations> FinancialOperations { get; set; }
 
-
+        
 
 
 
@@ -110,6 +111,7 @@ namespace JWTApi.Infrastructure.Data
             {
                 b.HasKey(p => p.Id);
                 b.Property(p => p.Name).HasMaxLength(200).IsRequired();
+                b.Property(p => p.Description).HasMaxLength(500).IsRequired();
                 b.Property(p => p.IsHolding).HasDefaultValueSql("0");
                 b.Property(p => p.IsDeleted).HasDefaultValueSql("0");
                 b.Property(p => p.CreateAt).HasDefaultValueSql("GETDATE()");
@@ -121,12 +123,60 @@ namespace JWTApi.Infrastructure.Data
             {
                 b.HasKey(p => p.Id);
                 b.Property(p => p.Name).HasMaxLength(200).IsRequired();
-          
+                b.Property(p => p.Address).HasMaxLength(200);
+                b.Property(p => p.Phone).HasMaxLength(20);
                 b.Property(p => p.CreateAt).HasDefaultValueSql("GETDATE()");
 
 
             });
+            // ---------------- Project ----------------
+            modelBuilder.Entity<FinancialOperations>(b =>
+            {
+                b.HasKey(p => p.Id);
 
+                b.Property(p => p.PaymentOrderNumber).IsRequired();
+                b.Property(p => p.AccountSideName).HasMaxLength(200).IsRequired();
+                b.Property(p => p.DescriptionRows).HasMaxLength(400);
+                b.Property(p => p.DateOfIssue).IsRequired();
+                b.Property(p => p.DueDate_Persian).HasMaxLength(20);
+                b.Property(p => p.DateOfIssue_Persian).HasMaxLength(20);
+                b.Property(p => p.PaymentStatus).IsRequired();
+                b.Property(p => p.Amount).HasPrecision(18, 2).IsRequired();
+                b.Property(p => p.DueDate).IsRequired();
+                b.Property(p => p.OperationCompleted).IsRequired();
+                b.Property(p => p.ProjectId).IsRequired();
+                b.Property(p => p.FinancialId).IsRequired();
+                b.Property(p => p.BankId).IsRequired();
+                b.Property(p => p.CreatedAt).HasDefaultValueSql("GETDATE()");
+                b.Property(p => p.UserId).IsRequired();
+                b.Property(p => p.LastModify).IsRequired();
+                b.Property(p => p.UserIdModify).IsRequired();
+                b.Property(p => p.IsDeleted).HasDefaultValueSql("0");
+
+                // رابطه با Bank - تصحیح شده
+                b.HasOne(bank => bank.Bank)
+                    .WithMany(b => b.FinancialOperations) // باید نام صحیح را بگذارید
+                    .HasForeignKey(f => f.BankId)
+                    .OnDelete(DeleteBehavior.Restrict);
+
+                // رابطه با Project
+                b.HasOne(p => p.Project)
+                    .WithMany(p => p.FinancialOperations)
+                    .HasForeignKey(f => f.ProjectId)
+                    .OnDelete(DeleteBehavior.Restrict);
+
+                // رابطه با Financial
+                b.HasOne(f => f.Financial)
+                    .WithMany(f => f.FinancialOperations)
+                    .HasForeignKey(f => f.FinancialId)
+                    .OnDelete(DeleteBehavior.Restrict);
+
+                // رابطه با User (برای UserId)
+                b.HasOne(u => u.User)
+                    .WithMany(u => u.FinancialOperations)
+                    .HasForeignKey(f => f.UserId)
+                    .OnDelete(DeleteBehavior.Restrict);
+            });
 
             //--------------
 

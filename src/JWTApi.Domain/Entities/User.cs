@@ -32,9 +32,11 @@ namespace JWTApi.Domain.Entities
 
         public ICollection<ProjectUser> ProjectUsers { get; set; } = new List<ProjectUser>();
 
-  
+        public ICollection<FinancialOperations> FinancialOperations { get; set; } = new List<FinancialOperations>();
 
-        
+
+
+
 
         private User() { }
 

@@ -18,6 +18,7 @@ namespace JWTApi.Domain.Entities
         public Company Company { get; set; } = null!;
 
         public ICollection<ProjectUser> ProjectUsers { get; set; } = new List<ProjectUser>();
+        public ICollection<FinancialOperations> FinancialOperations { get; set; } = new List<FinancialOperations>();
 
     }
 }

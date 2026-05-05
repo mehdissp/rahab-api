@@ -17,6 +17,7 @@ namespace JWTApi.Domain.Entities
         public DateTime CreateAt { get; set; }
         public bool IsDeleted { get; set; } = false;
         public ICollection<BankCompany> BankCompanies { get; set; } = new List<BankCompany>();
+        public ICollection<FinancialOperations> FinancialOperations { get; set; } = new List<FinancialOperations>();
 
         public void create(string name,string address,string phone,string desc,string userId)
         {
