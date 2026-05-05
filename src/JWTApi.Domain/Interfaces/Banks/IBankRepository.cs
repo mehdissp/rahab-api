@@ -19,6 +19,8 @@ namespace JWTApi.Domain.Interfaces.Banks
         Task Update(Bank bank,CancellationToken cancellationToken);
         Task Delete(int id,CancellationToken cancellationToken);
         Task<Bank> GetById(int id, CancellationToken cancellationToken);
-
+        Task<PagedResult<BankCompanyDtos>> GetBankCompanyDtos(string userId, int bankId, int pageNumber, int pageSize, CancellationToken cancellationToken);
+        Task InsertOrDeleteBankInCompany(List<BankCompany> bankCompanies, CancellationToken cancellationToken);
+        Task DeleteBankInCompany(int bankId, CancellationToken cancellationToken);
     }
 }

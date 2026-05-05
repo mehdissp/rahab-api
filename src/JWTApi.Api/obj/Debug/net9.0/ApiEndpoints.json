@@ -179,6 +179,22 @@
   },
   {
     "ContainingType": "JWTApi.Api.Controllers.BankController",
+    "Method": "GetBankCompanyDtos",
+    "RelativePath": "api/Bank/GetBankCompanyDtos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "JWTApi.Api.ViewModels.PageSizeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.BankController",
     "Method": "Insert",
     "RelativePath": "api/Bank/Insert",
     "HttpMethod": "POST",
@@ -189,6 +205,27 @@
         "Name": "bankViewModel",
         "Type": "JWTApi.Api.ViewModels.Bank.BankViewModel",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.BankController",
+    "Method": "InsertOrDeleteBankComapnies",
+    "RelativePath": "api/Bank/InsertOrDeleteBankComapnies",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bankCompanyDtos",
+        "Type": "System.Collections.Generic.List\u00601[[JWTApi.Application.DTOs.Banks.BankCompaniesDtos, JWTApi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "bankId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -278,6 +315,70 @@
       {
         "Name": "companyViewModel",
         "Type": "JWTApi.Api.ViewModels.Company.CompanyViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialController",
+    "Method": "DeleteFinancial",
+    "RelativePath": "api/Financial/DeleteFinancial",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectAddViewModel",
+        "Type": "JWTApi.Api.ViewModels.Project.ProjectDeleteViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialController",
+    "Method": "GetFinancialDtos",
+    "RelativePath": "api/Financial/GetFinancialDtos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "JWTApi.Api.ViewModels.PageSizeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialController",
+    "Method": "InsertFinancial",
+    "RelativePath": "api/Financial/InsertFinancial",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "financialCrudDtos",
+        "Type": "JWTApi.Application.DTOs.Financiales.FinancialCrudDtos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialController",
+    "Method": "UpdateFinancial",
+    "RelativePath": "api/Financial/UpdateFinancial",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "financialCrudDtos",
+        "Type": "JWTApi.Application.DTOs.Financiales.FinancialCrudDtos",
         "IsRequired": true
       }
     ],

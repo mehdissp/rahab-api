@@ -17,5 +17,18 @@ namespace JWTApi.Domain.Entities
         public bool IsDeleted { get; set; } = false;
         public ICollection<Financial> Children { get; set; } = new List<Financial>();
         public ICollection<FinancialCompany> FinancialCompanies { get; set; } = new List<FinancialCompany>();
+        public void create(string title,int financial_transactions,int? parentId)
+        {
+            Title = title;
+            Financial_transactions = (Financial_transactionsEnum)financial_transactions;
+            ParentId = parentId;
+        }
+        public void update(int id,string title, int financial_transactions, int? parentId)
+        {
+            Title = title;
+            Financial_transactions = (Financial_transactionsEnum)financial_transactions;
+            ParentId = parentId;
+            Id = id;
+        }
     }
 }

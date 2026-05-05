@@ -94,7 +94,7 @@ namespace JWTApi.Infrastructure.Migrations
 
                     b.HasIndex("CompanyId");
 
-                    b.ToTable("BankCompany");
+                    b.ToTable("BankCompanies");
                 });
 
             modelBuilder.Entity("JWTApi.Domain.Entities.Company", b =>
@@ -177,7 +177,7 @@ namespace JWTApi.Infrastructure.Migrations
 
                     b.HasIndex("FinancialId");
 
-                    b.ToTable("Financial");
+                    b.ToTable("Financials");
                 });
 
             modelBuilder.Entity("JWTApi.Domain.Entities.FinancialCompany", b =>
@@ -192,7 +192,7 @@ namespace JWTApi.Infrastructure.Migrations
 
                     b.HasIndex("CompanyId");
 
-                    b.ToTable("FinancialCompany");
+                    b.ToTable("FinancialCompanies");
                 });
 
             modelBuilder.Entity("JWTApi.Domain.Entities.IpLock", b =>

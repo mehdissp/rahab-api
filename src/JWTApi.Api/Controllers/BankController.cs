@@ -2,8 +2,11 @@
 using JWTApi.Api.ViewModels;
 using JWTApi.Api.ViewModels.Bank;
 using JWTApi.Api.ViewModels.Company;
+using JWTApi.Application.DTOs.Banks;
+using JWTApi.Application.Services;
 using JWTApi.Application.Services.Banks;
 using JWTApi.Application.Services.Companies;
+using JWTApi.Domain.Dtos.Banks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -64,6 +67,33 @@ namespace JWTApi.Api.Controllers
 
         }
 
+        [HttpPost("GetBankCompanyDtos")]
+        public async Task<IActionResult> GetBankCompanyDtos([FromBody] PageSizeViewModel pageSize, CancellationToken cancellationToken)
+        {
+            var userId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
+            var result = await _bankService.GetBankCompanyDtos(userId, (int)pageSize.Id, pageSize.PageNumber, pageSize.PageSize, cancellationToken);
+            var response = new
+            {
+                Items = result.Items,
+                TotalCount = result.TotalCount,
+                TotalPages = result.TotalPages,
+
+            };
+            return ResponseApi.Ok(response).ToHttpResponse();
+
+        }
+        [HttpPost("InsertOrDeleteBankComapnies")]
+        public async Task<IActionResult> InsertOrDeleteBankComapnies([FromBody] List<BankCompaniesDtos> bankCompanyDtos, [FromQuery] int bankId, CancellationToken cancellationToken)
+        {
+
+            var userId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
+
+
+            await _bankService.InsertOrDeleteBankInCompany(bankCompanyDtos, bankId, cancellationToken);
+
+            return ResponseApi.Ok().ToHttpResponse();
+
+        }
 
     }
 }

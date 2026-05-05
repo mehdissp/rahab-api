@@ -8,9 +8,9 @@ namespace JWTApi.Domain.Shared
 {
     public enum Financial_transactionsEnum : byte
     {
-        In = 0,
+        In = 1,
          
-        Out=1
+        Out=2
 
     }
 }

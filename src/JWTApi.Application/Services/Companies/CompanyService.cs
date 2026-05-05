@@ -1,4 +1,5 @@
 ﻿using JWTApi.Domain.Dtos;
+using JWTApi.Domain.Dtos.Banks;
 using JWTApi.Domain.Dtos.Company;
 using JWTApi.Domain.Entities;
 using JWTApi.Domain.Interfaces;
@@ -50,6 +51,8 @@ namespace JWTApi.Application.Services.Companies
         {
             return await _companyRepository.CompanyDtos(cancellationToken);
         }
+
+ 
 
     }
 }

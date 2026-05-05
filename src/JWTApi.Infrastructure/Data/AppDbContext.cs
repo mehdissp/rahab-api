@@ -31,6 +31,10 @@ namespace JWTApi.Infrastructure.Data
         public DbSet<Company> Companies { get; set; }
         public DbSet<Bank> Banks { get; set; }
 
+        public DbSet<BankCompany> BankCompanies { get; set; }
+        public DbSet<FinancialCompany> FinancialCompanies { get; set; }
+        public DbSet<Financial> Financials { get; set; }
+
 
 
 

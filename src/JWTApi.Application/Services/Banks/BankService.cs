@@ -1,9 +1,12 @@
-﻿using JWTApi.Domain.Dtos;
+﻿using JWTApi.Application.DTOs.Banks;
+using JWTApi.Domain.Dtos;
 using JWTApi.Domain.Dtos.Banks;
 using JWTApi.Domain.Entities;
 using JWTApi.Domain.Interfaces;
 using JWTApi.Domain.Interfaces.Banks;
 using JWTApi.Domain.Interfaces.Companies;
+using JWTApi.Infrastructure.Repositories;
+using JWTApi.Infrastructure.Repositories.Companies;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -55,6 +58,30 @@ namespace JWTApi.Application.Services.Banks
             bank.update(id,name, address, phone, desc, userId);
             await _bankRepository.Update(bank, cancellationToken);
             await _unitOfWork.SaveChanges(cancellationToken);
+        }
+        public async Task<PagedResult<BankCompanyDtos>> GetBankCompanyDtos(string userId, int bankId, int pageNumber, int pageSize, CancellationToken cancellationToken)
+        {
+            return await _bankRepository.GetBankCompanyDtos(userId, bankId, pageNumber, pageSize, cancellationToken);
+        }
+
+        public async Task InsertOrDeleteBankInCompany(List<BankCompaniesDtos> bankCompanies,int bankId, CancellationToken cancellationToken)
+        {
+            if (bankCompanies == null || !bankCompanies.Any())
+            {
+                await _bankRepository.DeleteBankInCompany(bankId, cancellationToken);
+                await _unitOfWork.SaveChanges(cancellationToken);
+            }
+            else
+            {
+                var projectUser = bankCompanies.Select(pu => new BankCompany
+                {
+                    BankId = bankId,
+                    CompanyId = pu.CompanyId // یا TagId اگر پراپرتی نامش متفاوت است
+                }).ToList();
+
+                await _bankRepository.InsertOrDeleteBankInCompany(projectUser, cancellationToken);
+                await _unitOfWork.SaveChanges(cancellationToken);
+            }
         }
     }
 }
