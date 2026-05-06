@@ -219,6 +219,9 @@ namespace JWTApi.Infrastructure.Migrations
                     b.Property<int>("BankId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("CompanyId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")

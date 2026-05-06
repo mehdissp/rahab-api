@@ -262,6 +262,7 @@ using JWTApi.Application.Services;
 using JWTApi.Application.Services.Banks;
 using JWTApi.Application.Services.Companies;
 using JWTApi.Application.Services.Financiales;
+using JWTApi.Application.Services.FinancialOperationses;
 using JWTApi.Application.Services.Menus;
 
 using JWTApi.Application.Services.Roles;
@@ -271,6 +272,7 @@ using JWTApi.Domain.Interfaces;
 using JWTApi.Domain.Interfaces.Banks;
 using JWTApi.Domain.Interfaces.Companies;
 using JWTApi.Domain.Interfaces.Financiales;
+using JWTApi.Domain.Interfaces.FinancialOperationses;
 using JWTApi.Domain.Interfaces.Menus;
 
 using JWTApi.Domain.Interfaces.Roles;
@@ -281,6 +283,7 @@ using JWTApi.Infrastructure.Repositories;
 using JWTApi.Infrastructure.Repositories.Banks;
 using JWTApi.Infrastructure.Repositories.Companies;
 using JWTApi.Infrastructure.Repositories.Financiales;
+using JWTApi.Infrastructure.Repositories.FinancialOperationses;
 using JWTApi.Infrastructure.Repositories.Menus;
 using JWTApi.Infrastructure.Repositories.Roles;
 
@@ -397,6 +400,7 @@ static void ConfigureDependencies(WebApplicationBuilder builder)
 
     builder.Services.AddScoped<IRoleRespository, RoleRepository>();
     builder.Services.AddScoped<IFinancialRepository, FinancialRepository>();
+    builder.Services.AddScoped<IFinancialOperationsRepository, FinancialOperationsRepository>();
 
     builder.Services.AddScoped<ITokenBlacklistRepository, TokenBlacklistRepository>();
 
@@ -404,6 +408,7 @@ static void ConfigureDependencies(WebApplicationBuilder builder)
     builder.Services.AddScoped<RoleService>();
     builder.Services.AddScoped<BankService>();
     builder.Services.AddScoped<FinancialService>();
+    builder.Services.AddScoped<FinancialOperationsService>();
 
     builder.Services.AddScoped<MenuService>();
 

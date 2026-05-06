@@ -25,12 +25,66 @@ namespace JWTApi.Domain.Entities
         public int BankId { get; set; }
         public DateTime CreatedAt { get; set; }
         public Guid UserId { get; set; }
-        public DateTime LastModify { get; set; }
-        public Guid UserIdModify { get; set; }
+        public DateTime? LastModify { get; set; }
+        public Guid? UserIdModify { get; set; }
         public bool IsDeleted { get; set; } = false;
+        public int? CompanyId { get; set; }
         public Bank Bank { get; set; } = default!;
         public Project Project { get; set; } = default!;
         public Financial Financial { get; set; } = default!;
         public User User { get; set; } = default!;
+        public void create(int paymentOrderNumber,string accountSide,string desc, DateTime dateOfIssue
+            ,string dateOfIssue_Persian, int paymentStatus,decimal amount, DateTime dueDate,
+            string dueDate_Persian, int operationCompleted,int projectId,int financialId,
+            int bankId, DateTime dateTime,string userId,int companyId
+
+            )
+        {
+            PaymentOrderNumber = paymentOrderNumber;
+            AccountSideName=accountSide;
+            DescriptionRows = desc;
+            DateOfIssue = dateOfIssue;
+            DateOfIssue_Persian = dateOfIssue_Persian;
+            PaymentStatus = (PaymentStatusEnum)paymentStatus;
+            Amount = amount;
+            DueDate = dueDate;
+            UserId = Guid.Parse(userId);
+            BankId = bankId;
+            DueDate_Persian=dueDate_Persian;
+            OperationCompleted = (OperationCompletedEnum)operationCompleted;
+            ProjectId = projectId;
+            FinancialId = financialId;
+            CompanyId = companyId;
+        }
+        public void update(int id,int paymentOrderNumber, string accountSide, string desc, DateTime dateOfIssue
+    , string dateOfIssue_Persian, int paymentStatus, decimal amount, DateTime dueDate,
+    string dueDate_Persian, int operationCompleted, int projectId, int financialId,
+    int bankId, DateTime dateTime, string userId, int companyId
+
+    )
+        {
+            Id = id;
+            PaymentOrderNumber = paymentOrderNumber;
+            AccountSideName = accountSide;
+            DescriptionRows = desc;
+            DateOfIssue = dateOfIssue;
+            DateOfIssue_Persian = dateOfIssue_Persian;
+            PaymentStatus = (PaymentStatusEnum)paymentStatus;
+            Amount = amount;
+            DueDate = dueDate;
+            UserId = Guid.Parse(userId);
+            BankId = bankId;
+            DueDate_Persian = dueDate_Persian;
+            OperationCompleted = (OperationCompletedEnum)operationCompleted;
+            ProjectId = projectId;
+            FinancialId = financialId;
+            CompanyId = companyId;
+        }
+        public void Delete(string userId)
+        {
+            IsDeleted = true;
+            LastModify = DateTime.Now;
+            UserIdModify = Guid.Parse(userId);
+        }
     }
 }

@@ -385,6 +385,128 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialOperationsController",
+    "Method": "DeleteFinancialOperations",
+    "RelativePath": "api/FinancialOperations/DeleteFinancialOperations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialOperationsController",
+    "Method": "FinancialOperationsDtos",
+    "RelativePath": "api/FinancialOperations/FinancialOperationsDtos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "JWTApi.Api.ViewModels.PageSizeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialOperationsController",
+    "Method": "GetComboBank",
+    "RelativePath": "api/FinancialOperations/GetComboBank",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialOperationsController",
+    "Method": "GetComboCompany",
+    "RelativePath": "api/FinancialOperations/GetComboCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialOperationsController",
+    "Method": "GetComboFinancialsAsync",
+    "RelativePath": "api/FinancialOperations/GetComboFinancialsAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "financialOperationsViewModel",
+        "Type": "JWTApi.Api.ViewModels.FinancialOperations.FinancialOperationsViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialOperationsController",
+    "Method": "GetComboProject",
+    "RelativePath": "api/FinancialOperations/GetComboProject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialOperationsController",
+    "Method": "InsertFinancialOperations",
+    "RelativePath": "api/FinancialOperations/InsertFinancialOperations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "financialCrudDtos",
+        "Type": "JWTApi.Application.DTOs.FinancialOperationses.FinancialOperationsCrudDtos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialOperationsController",
+    "Method": "UpdateFinancialOperations",
+    "RelativePath": "api/FinancialOperations/UpdateFinancialOperations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "financialCrudDtos",
+        "Type": "JWTApi.Application.DTOs.FinancialOperationses.FinancialOperationsCrudDtos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "JWTApi.Api.Controllers.MenuController",
     "Method": "GetMenuItemsAsync",
     "RelativePath": "api/Menu/GetMenuItemsAsync",

@@ -62,5 +62,22 @@ namespace JWTApi.Domain.Shared
         yes=1,
         No=2
     }
+    public static class OperationCompletedEnumExtensions
+    {
+        public static string GetTitle(this OperationCompletedEnum inputData)
+        {
+            switch (inputData)
+            {
+                case OperationCompletedEnum.yes:
+                    return "بلی";
+                case OperationCompletedEnum.No:
+                    return "خیر";
+       
+
+                default:
+                    return "خطا";
+            }
+        }
+    }
 
 }
