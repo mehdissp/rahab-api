@@ -48,6 +48,10 @@ namespace JWTApi.Infrastructure.Repositories.Financiales
         {
             return await _context.Financials.FindAsync(id, cancellationToken);
         }
+        public async Task<List<Financial>> GetByParentId(int id, CancellationToken cancellationToken)
+        {
+            return await _context.Financials.Where(S => S.ParentId == id).ToListAsync(cancellationToken);
+        }
 
         public Task<List<FinancialDtos>> GetComboFinancial(int? id, CancellationToken cancellationToken)
         {
@@ -115,7 +119,13 @@ namespace JWTApi.Infrastructure.Repositories.Financiales
 
         public async Task Update(Financial financial, CancellationToken cancellationToken)
         {
+            
             _context.Financials.Update(financial);
+        }
+        public async Task Update(List<Financial> financial, CancellationToken cancellationToken)
+        {
+
+            _context.Financials.UpdateRange(financial);
         }
     }
 }

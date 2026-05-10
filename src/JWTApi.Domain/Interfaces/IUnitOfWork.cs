@@ -9,6 +9,10 @@ namespace JWTApi.Domain.Interfaces
   public  interface IUnitOfWork
     {
         Task SaveChanges(CancellationToken cancellationToken);
-        Task CheckAccess(string roleId, string userId, CancellationToken cancellationToken);
+
+        Task BeginTransactionAsync(CancellationToken cancellationToken = default);
+        Task CommitTransactionAsync(CancellationToken cancellationToken = default);
+         Task RollbackTransactionAsync(CancellationToken cancellationToken = default);
+
     }
 }

@@ -34,7 +34,7 @@ namespace JWTApi.Domain.Shared
     {
         Cash=1,
         Cheque=2,
-        Request= 3,
+        CashAndCheque= 3,
         Returning=4
     }
     public static class PaymentStatusEnumExtensions
@@ -47,10 +47,9 @@ namespace JWTApi.Domain.Shared
                     return "نقد";
                 case PaymentStatusEnum.Cheque:
                     return "چک";
-                case PaymentStatusEnum.Request:
-                    return "واخواست";
-                case PaymentStatusEnum.Returning:
-                    return "عودت";
+                case PaymentStatusEnum.CashAndCheque:
+                    return "نقدوچک";
+         
   
                 default:
                     return "خطا";
@@ -59,6 +58,7 @@ namespace JWTApi.Domain.Shared
     }
     public enum OperationCompletedEnum
     {
+        Waiting=0,
         yes=1,
         No=2
     }
@@ -72,7 +72,39 @@ namespace JWTApi.Domain.Shared
                     return "بلی";
                 case OperationCompletedEnum.No:
                     return "خیر";
-       
+                case OperationCompletedEnum.Waiting:
+                    return "درانتظار";
+
+
+                default:
+                    return "خطا";
+            }
+        }
+    }
+
+
+    public enum PaymentChequeStatusEnum
+    {
+        WATING=0,
+        YES = 1,
+        NO = 2,
+        Returning = 3
+    }
+    public static class PaymentChequeStatusEnumExtensions
+    {
+        public static string GetTitle(this PaymentChequeStatusEnum inputData)
+        {
+            switch (inputData)
+            {
+                case PaymentChequeStatusEnum.WATING:
+                    return "در انتظار";
+                case PaymentChequeStatusEnum.YES:
+                    return "بلی";
+                case PaymentChequeStatusEnum.NO:
+                    return "خیر";
+                case PaymentChequeStatusEnum.Returning:
+                    return "برگشت خورد";
+
 
                 default:
                     return "خطا";

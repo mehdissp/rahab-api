@@ -6,5 +6,6 @@
         public int PageNumber { get; set; }
         public int? Id { get; set; }
         public string?  KeyValue { get; set; }
+        
     }
 }

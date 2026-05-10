@@ -13,6 +13,7 @@ namespace JWTApi.Domain.Interfaces.Financiales
     {
         Task Insert(Financial financial,CancellationToken cancellationToken);
         Task Update(Financial financial,CancellationToken cancellationToken);
+        Task Update(List<Financial> financial, CancellationToken cancellationToken);
         Task Delete(int id,CancellationToken cancellationToken);
         Task<Financial> GetById(int id, CancellationToken cancellationToken);
         Task<List<FinancialDtos>> GetComboFinancial(int? id, CancellationToken cancellationToken);
@@ -20,5 +21,6 @@ namespace JWTApi.Domain.Interfaces.Financiales
          int pageNumber = 1,
          int pageSize = 10,
          CancellationToken cancellationToken = default);
+        Task<List<Financial>> GetByParentId(int id, CancellationToken cancellationToken);
     }
 }

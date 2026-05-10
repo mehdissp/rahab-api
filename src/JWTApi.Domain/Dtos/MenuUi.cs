@@ -12,5 +12,6 @@ namespace JWTApi.Domain.Dtos
         public string Path { get; set; }
         public string Label { get; set; }
         public string Icon { get; set; }
+        public List<MenuUi> Children { get; set; } = new List<MenuUi>();
     }
 }

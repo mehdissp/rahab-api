@@ -35,8 +35,12 @@ namespace JWTApi.Infrastructure.Data
         public DbSet<FinancialCompany> FinancialCompanies { get; set; }
         public DbSet<Financial> Financials { get; set; }
         public DbSet<FinancialOperations> FinancialOperations { get; set; }
+        public DbSet<Cheque> Cheques { get; set; }
+        public DbSet<AccountSide> AccountSides { get; set; }
 
         
+
+
 
 
 
@@ -69,6 +73,31 @@ namespace JWTApi.Infrastructure.Data
                 b.Property(x => x.IPAddress).HasMaxLength(50).IsRequired();
                 b.HasIndex(x => x.IPAddress).IsUnique();
             });
+            modelBuilder.Entity<Cheque>(b =>
+            {
+                b.HasKey(x => x.Id);
+                b.Property(x => x.Desc).HasMaxLength(250);
+                b.Property(x => x.SerialNumber).HasMaxLength(30);
+                b.Property(x => x.ChequeDate_Persion).HasMaxLength(10);
+                b.Property(u => u.CreatedAt).HasDefaultValueSql("GETDATE()");          
+                b.Property(p => p.IsDeleted).HasDefaultValueSql("0");
+                // رابطه با AccountSide (برای AccountSideId)
+                b.HasOne(u => u.FinancialOperations)
+                    .WithMany(u => u.Cheques)
+                    .HasForeignKey(f => f.FinancialOperationsId)
+                    .OnDelete(DeleteBehavior.Restrict);
+            });
+            modelBuilder.Entity<AccountSide>(b =>
+            {
+                b.HasKey(x => x.Id);
+                b.Property(x => x.Desc).HasMaxLength(250);
+                b.Property(x => x.Name).HasMaxLength(100);
+                b.Property(u => u.CreatedAt).HasDefaultValueSql("GETDATE()");
+                b.Property(p => p.IsDeleted).HasDefaultValueSql("0");
+         
+            });
+
+            
             modelBuilder.Entity<Role>(b =>
             {
 
@@ -149,8 +178,7 @@ namespace JWTApi.Infrastructure.Data
                 b.Property(p => p.BankId).IsRequired();
                 b.Property(p => p.CreatedAt).HasDefaultValueSql("GETDATE()");
                 b.Property(p => p.UserId).IsRequired();
-                b.Property(p => p.LastModify).IsRequired();
-                b.Property(p => p.UserIdModify).IsRequired();
+                
                 b.Property(p => p.IsDeleted).HasDefaultValueSql("0");
 
                 // رابطه با Bank - تصحیح شده
@@ -175,6 +203,11 @@ namespace JWTApi.Infrastructure.Data
                 b.HasOne(u => u.User)
                     .WithMany(u => u.FinancialOperations)
                     .HasForeignKey(f => f.UserId)
+                    .OnDelete(DeleteBehavior.Restrict);
+                // رابطه با AccountSide (برای AccountSideId)
+                b.HasOne(u => u.AccountSide)
+                    .WithMany(u => u.FinancialOperations)
+                    .HasForeignKey(f => f.AccountSideId)
                     .OnDelete(DeleteBehavior.Restrict);
             });
 

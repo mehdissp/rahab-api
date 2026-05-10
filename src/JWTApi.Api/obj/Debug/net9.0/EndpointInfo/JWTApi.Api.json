@@ -457,6 +457,37 @@
         }
       }
     },
+    "/api/Cheques/ChequesDtosAsync": {
+      "post": {
+        "tags": [
+          "Cheques"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PageSizeViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PageSizeViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PageSizeViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Company/Insert": {
       "post": {
         "tags": [
@@ -588,6 +619,18 @@
       "get": {
         "tags": [
           "Company"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Dashbaord/GetDashboardsDtosAsync": {
+      "get": {
+        "tags": [
+          "Dashbaord"
         ],
         "responses": {
           "200": {
@@ -729,17 +772,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PageSizeViewModel"
+                "$ref": "#/components/schemas/PageSizeOPViewModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PageSizeViewModel"
+                "$ref": "#/components/schemas/PageSizeOPViewModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PageSizeViewModel"
+                "$ref": "#/components/schemas/PageSizeOPViewModel"
               }
             }
           }
@@ -947,6 +990,40 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/FinancialOperationsViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/FinancialOperations/GetAccountSideCombo": {
+      "post": {
+        "tags": [
+          "FinancialOperations"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
               }
             }
           }
@@ -1440,6 +1517,41 @@
         },
         "additionalProperties": false
       },
+      "Cheques": {
+        "type": "object",
+        "properties": {
+          "serialNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "chequeDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "chequeDate_Persion": {
+            "type": "string",
+            "nullable": true
+          },
+          "amount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paymentChequeStatus": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "bankName": {
+            "type": "string",
+            "nullable": true
+          },
+          "desc": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CompanyViewModel": {
         "type": "object",
         "properties": {
@@ -1543,6 +1655,27 @@
           "companyId": {
             "type": "integer",
             "format": "int32"
+          },
+          "accountSideId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "amountCash": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "amountCheque": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "cheques": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Cheques"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1597,6 +1730,39 @@
         "type": "object",
         "properties": {
           "menuId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PageSizeOPViewModel": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "keyValue": {
+            "type": "string",
+            "nullable": true
+          },
+          "projectId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "bankId": {
             "type": "integer",
             "format": "int32",
             "nullable": true

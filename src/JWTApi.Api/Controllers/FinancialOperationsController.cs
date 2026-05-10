@@ -22,10 +22,10 @@ namespace JWTApi.Api.Controllers
             _financialService = financialService;
         }
         [HttpPost("FinancialOperationsDtos")]
-        public async Task<IActionResult> FinancialOperationsDtos([FromBody] PageSizeViewModel pageSize, CancellationToken cancellationToken)
+        public async Task<IActionResult> FinancialOperationsDtos([FromBody] PageSizeOPViewModel pageSize, CancellationToken cancellationToken)
         {
             var userId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
-            var result = await _financialService.GetFinancialOperations(pageSize.PageNumber, pageSize.PageSize, cancellationToken);
+            var result = await _financialService.GetFinancialOperations(pageSize.ProjectId, pageSize.BankId, pageSize.KeyValue, pageSize.PageNumber, pageSize.PageSize, cancellationToken);
             var response = new
             {
                 Items = result.Items,
@@ -102,7 +102,19 @@ namespace JWTApi.Api.Controllers
 
         }
 
-        
+        [HttpPost("GetAccountSideCombo")]
+        public async Task<IActionResult> GetAccountSideCombo([FromBody] int id , CancellationToken cancellationToken)
+        {
+            var userId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
+            var check = await _financialService.GetAccountSideCombo(userId,
+               id,
+                cancellationToken);
+
+            return ResponseApi.Ok(check).ToHttpResponse();
+
+        }
+
+
 
     }
 }

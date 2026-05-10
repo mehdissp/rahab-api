@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ks1uhChaF9Q=",
+  "dgSpecHash": "4ekqKzN89xw=",
   "success": true,
   "projectFilePath": "D:\\api\\rahab\\api-test1\\src\\JWTApi.Application\\JWTApi.Application.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\0017682381.REFAHBANK\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.7.1\\microsoft.identitymodel.protocols.7.7.1.nupkg.sha512",
     "C:\\Users\\0017682381.REFAHBANK\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.7.1\\microsoft.identitymodel.protocols.openidconnect.7.7.1.nupkg.sha512",
     "C:\\Users\\0017682381.REFAHBANK\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\0017682381.REFAHBANK\\.nuget\\packages\\microsoft.io.recyclablememorystream\\3.0.1\\microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
     "C:\\Users\\0017682381.REFAHBANK\\.nuget\\packages\\microsoft.ml.onnxruntime\\1.24.1\\microsoft.ml.onnxruntime.1.24.1.nupkg.sha512",
     "C:\\Users\\0017682381.REFAHBANK\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.24.1\\microsoft.ml.onnxruntime.managed.1.24.1.nupkg.sha512",
     "C:\\Users\\0017682381.REFAHBANK\\.nuget\\packages\\microsoft.net.http.headers\\2.3.0\\microsoft.net.http.headers.2.3.0.nupkg.sha512",

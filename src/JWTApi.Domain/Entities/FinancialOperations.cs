@@ -11,8 +11,8 @@ namespace JWTApi.Domain.Entities
     {
         public int Id { get; set; }
         public int PaymentOrderNumber { get; set; }
-        public string AccountSideName { get; set; }
-        public string DescriptionRows { get; set; }
+        public string? AccountSideName { get; set; }
+        public string? DescriptionRows { get; set; }
         public DateTime DateOfIssue { get; set; }
         public string DateOfIssue_Persian { get; set; }
         public PaymentStatusEnum PaymentStatus { get; set; }
@@ -29,14 +29,21 @@ namespace JWTApi.Domain.Entities
         public Guid? UserIdModify { get; set; }
         public bool IsDeleted { get; set; } = false;
         public int? CompanyId { get; set; }
-        public Bank Bank { get; set; } = default!;
-        public Project Project { get; set; } = default!;
-        public Financial Financial { get; set; } = default!;
-        public User User { get; set; } = default!;
+        public int? AccountSideId { get; set; }
+        public decimal? AmountCash { get; set; }
+        public decimal? AmountCheque { get; set; }
+        public Bank? Bank { get; set; } = default!;
+        public AccountSide? AccountSide { get; set; } = default!;
+        public Project? Project { get; set; } = default!;
+        public Financial? Financial { get; set; } = default!;
+        public User? User { get; set; } = default!;
+        public ICollection<Cheque> Cheques { get; set; } = new List<Cheque>();
+        
         public void create(int paymentOrderNumber,string accountSide,string desc, DateTime dateOfIssue
             ,string dateOfIssue_Persian, int paymentStatus,decimal amount, DateTime dueDate,
             string dueDate_Persian, int operationCompleted,int projectId,int financialId,
-            int bankId, DateTime dateTime,string userId,int companyId
+            int bankId, DateTime dateTime,string userId,int companyId,int accountSideId,decimal? amountCash,
+            decimal? amountCheque
 
             )
         {
@@ -55,11 +62,15 @@ namespace JWTApi.Domain.Entities
             ProjectId = projectId;
             FinancialId = financialId;
             CompanyId = companyId;
+            AccountSideId= accountSideId;
+            AmountCash= amountCash;
+            AmountCheque=amountCheque;
         }
         public void update(int id,int paymentOrderNumber, string accountSide, string desc, DateTime dateOfIssue
     , string dateOfIssue_Persian, int paymentStatus, decimal amount, DateTime dueDate,
     string dueDate_Persian, int operationCompleted, int projectId, int financialId,
-    int bankId, DateTime dateTime, string userId, int companyId
+    int bankId, DateTime dateTime, string userId, int companyId, int accountSideId, decimal? amountCash,
+            decimal? amountCheque
 
     )
         {
@@ -79,6 +90,9 @@ namespace JWTApi.Domain.Entities
             ProjectId = projectId;
             FinancialId = financialId;
             CompanyId = companyId;
+            AccountSideId = accountSideId;
+            AmountCash = amountCash;
+            AmountCheque = amountCheque;
         }
         public void Delete(string userId)
         {

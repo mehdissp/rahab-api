@@ -102,7 +102,7 @@ namespace JWTApi.Infrastructure.Repositories.Banks
 
         public async Task<PagedResult<BankCompanyDtos>> GetBankCompanyDtos(string userId, int bankId, int pageNumber, int pageSize, CancellationToken cancellationToken)
         {
-            var baseQuery = from u in _context.Companies
+            var baseQuery = from u in _context.Companies.Where(s=>s.IsDeleted==false && s.IsHolding==false)
                          
                             select new BankCompanyDtos
                             {

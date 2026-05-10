@@ -260,6 +260,7 @@ using JwtApi.Api.Middleware;
 using JWTApi.Api.Middleware;
 using JWTApi.Application.Services;
 using JWTApi.Application.Services.Banks;
+using JWTApi.Application.Services.Cheques;
 using JWTApi.Application.Services.Companies;
 using JWTApi.Application.Services.Financiales;
 using JWTApi.Application.Services.FinancialOperationses;
@@ -270,6 +271,7 @@ using JWTApi.Application.Services.Roles;
 using JWTApi.Domain.Entities;
 using JWTApi.Domain.Interfaces;
 using JWTApi.Domain.Interfaces.Banks;
+using JWTApi.Domain.Interfaces.Cheques;
 using JWTApi.Domain.Interfaces.Companies;
 using JWTApi.Domain.Interfaces.Financiales;
 using JWTApi.Domain.Interfaces.FinancialOperationses;
@@ -279,8 +281,10 @@ using JWTApi.Domain.Interfaces.Roles;
 
 using JWTApi.Domain.Interfaces.TokenBlacklist;
 using JWTApi.Infrastructure.Data;
+using JWTApi.Infrastructure.Middleware;
 using JWTApi.Infrastructure.Repositories;
 using JWTApi.Infrastructure.Repositories.Banks;
+using JWTApi.Infrastructure.Repositories.Cheques;
 using JWTApi.Infrastructure.Repositories.Companies;
 using JWTApi.Infrastructure.Repositories.Financiales;
 using JWTApi.Infrastructure.Repositories.FinancialOperationses;
@@ -397,6 +401,7 @@ static void ConfigureDependencies(WebApplicationBuilder builder)
     builder.Services.AddScoped<IUnitOfWork, UnitOfWorkRepository>();
     builder.Services.AddScoped<IBaleRepository, BaleRepository>();
     builder.Services.AddScoped<IBankRepository, BankRepository>();
+    builder.Services.AddScoped<IChequesRepository, ChequeRepository>();
 
     builder.Services.AddScoped<IRoleRespository, RoleRepository>();
     builder.Services.AddScoped<IFinancialRepository, FinancialRepository>();
@@ -417,6 +422,7 @@ static void ConfigureDependencies(WebApplicationBuilder builder)
     builder.Services.AddScoped<AuthService>();
     builder.Services.AddScoped<UserService>();
     builder.Services.AddScoped<ProjectService>();
+    builder.Services.AddScoped<ChequesService>();
 
 
 
@@ -535,6 +541,9 @@ static void ConfigureMiddlewarePipeline(WebApplication app)
     }
 
     app.UseHttpsRedirection();
+    app.UseCustomSecurityMiddleware();
+    app.UseSqlInjectionProtection();
+    //app.UseComprehensiveSecurity();  // <-- اضافه کنید
     // مهم: UseStaticFiles باید قبل از UseRouting باشد
     app.UseStaticFiles(new StaticFileOptions
     {
@@ -567,3 +576,5 @@ static void ConfigureEndpoints(WebApplication app)
 {
     app.MapControllers();
 }
+
+

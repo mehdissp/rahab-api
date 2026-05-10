@@ -4,6 +4,7 @@ using JWTApi.Domain.Dtos.Financiales;
 using JWTApi.Domain.Entities;
 using JWTApi.Domain.Interfaces;
 using JWTApi.Domain.Interfaces.Financiales;
+using JWTApi.Domain.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,9 +44,17 @@ namespace JWTApi.Application.Services.Financiales
         {
             Financial financial = new Financial();
             financial.update(financialDtos.Id,financialDtos.Title, financialDtos.Financial_transactions, financialDtos.ParentId);
-
+            
             await _financialRepository.Update(financial, cancellationToken);
-           
+
+            List<Financial> financials = await _financialRepository.GetByParentId(financialDtos.Id, cancellationToken);
+            foreach (var item in financials)
+            {
+                item.Financial_transactions = (Financial_transactionsEnum)financialDtos.Financial_transactions;
+            }
+
+            await _financialRepository.Update(financials, cancellationToken);
+
             await _unitOfWork.SaveChanges(cancellationToken);
 
         }

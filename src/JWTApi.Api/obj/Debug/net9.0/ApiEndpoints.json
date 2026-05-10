@@ -247,6 +247,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "JWTApi.Api.Controllers.ChequesController",
+    "Method": "ChequesDtosAsync",
+    "RelativePath": "api/Cheques/ChequesDtosAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "JWTApi.Api.ViewModels.PageSizeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "JWTApi.Api.Controllers.CompanyController",
     "Method": "Delete",
     "RelativePath": "api/Company/Delete",
@@ -318,6 +334,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.DashbaordController",
+    "Method": "GetDashboardsDtosAsync",
+    "RelativePath": "api/Dashbaord/GetDashboardsDtosAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -410,7 +436,23 @@
     "Parameters": [
       {
         "Name": "pageSize",
-        "Type": "JWTApi.Api.ViewModels.PageSizeViewModel",
+        "Type": "JWTApi.Api.ViewModels.FinancialOperations.PageSizeOPViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTApi.Api.Controllers.FinancialOperationsController",
+    "Method": "GetAccountSideCombo",
+    "RelativePath": "api/FinancialOperations/GetAccountSideCombo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

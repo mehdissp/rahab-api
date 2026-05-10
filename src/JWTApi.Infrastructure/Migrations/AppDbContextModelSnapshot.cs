@@ -22,6 +22,48 @@ namespace JWTApi.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("JWTApi.Domain.Entities.AccountSide", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETDATE()");
+
+                    b.Property<string>("Desc")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValueSql("0");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("UserEditor")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AccountSides");
+                });
+
             modelBuilder.Entity("JWTApi.Domain.Entities.Attachment", b =>
                 {
                     b.Property<Guid>("Id")
@@ -97,6 +139,71 @@ namespace JWTApi.Infrastructure.Migrations
                     b.HasIndex("CompanyId");
 
                     b.ToTable("BankCompanies");
+                });
+
+            modelBuilder.Entity("JWTApi.Domain.Entities.Cheque", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("BankName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ChequeDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ChequeDate_Persion")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETDATE()");
+
+                    b.Property<string>("Desc")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<int>("FinancialOperationsId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValueSql("0");
+
+                    b.Property<int>("PaymentChequeStatus")
+                        .HasColumnType("int");
+
+                    b.Property<string>("SerialNumber")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("UserEditor")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FinancialOperationsId");
+
+                    b.ToTable("Cheques");
                 });
 
             modelBuilder.Entity("JWTApi.Domain.Entities.Company", b =>
@@ -207,6 +314,9 @@ namespace JWTApi.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("AccountSideId")
+                        .HasColumnType("int");
+
                     b.Property<string>("AccountSideName")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -214,6 +324,12 @@ namespace JWTApi.Infrastructure.Migrations
 
                     b.Property<decimal>("Amount")
                         .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal?>("AmountCash")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal?>("AmountCheque")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("BankId")
@@ -236,7 +352,6 @@ namespace JWTApi.Infrastructure.Migrations
                         .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("DescriptionRows")
-                        .IsRequired()
                         .HasMaxLength(400)
                         .HasColumnType("nvarchar(400)");
 
@@ -256,7 +371,7 @@ namespace JWTApi.Infrastructure.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValueSql("0");
 
-                    b.Property<DateTime>("LastModify")
+                    b.Property<DateTime?>("LastModify")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("OperationCompleted")
@@ -274,10 +389,12 @@ namespace JWTApi.Infrastructure.Migrations
                     b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("UserIdModify")
+                    b.Property<Guid?>("UserIdModify")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AccountSideId");
 
                     b.HasIndex("BankId");
 
@@ -650,6 +767,17 @@ namespace JWTApi.Infrastructure.Migrations
                     b.Navigation("Company");
                 });
 
+            modelBuilder.Entity("JWTApi.Domain.Entities.Cheque", b =>
+                {
+                    b.HasOne("JWTApi.Domain.Entities.FinancialOperations", "FinancialOperations")
+                        .WithMany("Cheques")
+                        .HasForeignKey("FinancialOperationsId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("FinancialOperations");
+                });
+
             modelBuilder.Entity("JWTApi.Domain.Entities.Company", b =>
                 {
                     b.HasOne("JWTApi.Domain.Entities.Company", null)
@@ -691,6 +819,11 @@ namespace JWTApi.Infrastructure.Migrations
 
             modelBuilder.Entity("JWTApi.Domain.Entities.FinancialOperations", b =>
                 {
+                    b.HasOne("JWTApi.Domain.Entities.AccountSide", "AccountSide")
+                        .WithMany("FinancialOperations")
+                        .HasForeignKey("AccountSideId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.HasOne("JWTApi.Domain.Entities.Bank", "Bank")
                         .WithMany("FinancialOperations")
                         .HasForeignKey("BankId")
@@ -714,6 +847,8 @@ namespace JWTApi.Infrastructure.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.Navigation("AccountSide");
 
                     b.Navigation("Bank");
 
@@ -820,6 +955,11 @@ namespace JWTApi.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("JWTApi.Domain.Entities.AccountSide", b =>
+                {
+                    b.Navigation("FinancialOperations");
+                });
+
             modelBuilder.Entity("JWTApi.Domain.Entities.Bank", b =>
                 {
                     b.Navigation("BankCompanies");
@@ -845,6 +985,11 @@ namespace JWTApi.Infrastructure.Migrations
                     b.Navigation("FinancialCompanies");
 
                     b.Navigation("FinancialOperations");
+                });
+
+            modelBuilder.Entity("JWTApi.Domain.Entities.FinancialOperations", b =>
+                {
+                    b.Navigation("Cheques");
                 });
 
             modelBuilder.Entity("JWTApi.Domain.Entities.Menu", b =>

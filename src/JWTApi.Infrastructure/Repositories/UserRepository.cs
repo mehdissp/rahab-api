@@ -203,29 +203,59 @@ namespace JWTApi.Infrastructure.Repositories
         }
 
 
-        public async Task<List<MenuUi>> GetUserMenuPermissionsForUiAsync(string userId,string roleId, CancellationToken cancellationToken)
-         {
-          
+        //public async Task<List<MenuUi>> GetUserMenuPermissionsForUiAsync(string userId,string roleId, CancellationToken cancellationToken)
+        // {
 
-          
+
+
+        //    var roleGuid = Guid.Parse(roleId);
+
+        //    var menuPermissions = await _context.Roles
+        //        .Where(r => r.Id == roleGuid)
+        //        .SelectMany(r => r.RoleMenus.Select(rm => rm.Menu).Where(s=>s.IsMenu==true))
+        //        .Where(m => m.ParentId == null).Select(menu => new MenuUi
+        //        {
+        //            Id = menu.Id,
+        //            Path = menu.Path,
+        //            Label = menu.Label,
+        //            Icon = menu.Icon,
+
+        //        })
+        //        .ToListAsync();
+
+
+
+        //    return menuPermissions;
+        //}
+        public async Task<List<MenuUi>> GetUserMenuPermissionsForUiAsync(string userId, string roleId, CancellationToken cancellationToken)
+        {
             var roleGuid = Guid.Parse(roleId);
 
-            var menuPermissions = await _context.Roles
+            // دریافت تمام منوهای مجاز برای نقش (هم والد و هم کودکان)
+            var allMenuPermissions = await _context.Roles
                 .Where(r => r.Id == roleGuid)
-                .SelectMany(r => r.RoleMenus.Select(rm => rm.Menu).Where(s=>s.IsMenu==true))
-                .Where(m => m.ParentId == null).Select(menu => new MenuUi
+                .SelectMany(r => r.RoleMenus.Select(rm => rm.Menu).Where(s => s.IsMenu == true))
+                .ToListAsync(cancellationToken);
+
+            // ساخت درخت منوها
+            var menuTree = BuildMenuTree(allMenuPermissions, null);
+
+            return menuTree;
+        }
+
+        private List<MenuUi> BuildMenuTree(List<Menu> allMenus, int? parentId)
+        {
+            return allMenus
+                .Where(m => m.ParentId == parentId)
+                .Select(menu => new MenuUi
                 {
                     Id = menu.Id,
                     Path = menu.Path,
                     Label = menu.Label,
                     Icon = menu.Icon,
-
+                    Children = BuildMenuTree(allMenus, menu.Id) // اضافه کردن فرزندان
                 })
-                .ToListAsync();
-
- 
-
-            return menuPermissions;
+                .ToList();
         }
         public async Task AddLoginAttemptAsync(LoginAttempt loginAttempt, CancellationToken cancellationToken)
         {

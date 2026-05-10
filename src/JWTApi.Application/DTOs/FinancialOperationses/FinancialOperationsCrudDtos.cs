@@ -24,5 +24,20 @@ namespace JWTApi.Application.DTOs.FinancialOperationses
         public int FinancialId { get; set; }
         public int BankId { get; set; }
         public int CompanyId { get; set; }
+        public int AccountSideId { get; set; }
+        public decimal? AmountCash { get; set; }
+        public decimal? AmountCheque { get; set; }
+        public List<Cheques> Cheques { get; set; }
+
+    }
+    public class Cheques
+    {
+        public string SerialNumber { get; set; }
+        public DateTime ChequeDate { get; set; }
+        public string ChequeDate_Persion { get; set; }
+        public int Amount { get; set; }
+        public int? PaymentChequeStatus { get; set; }
+        public string BankName { get; set; }
+        public string Desc { get; set; }
     }
 }
