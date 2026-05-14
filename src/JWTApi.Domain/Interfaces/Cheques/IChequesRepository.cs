@@ -22,6 +22,7 @@ namespace JWTApi.Domain.Interfaces.Cheques
               int pageSize = 10,
               string? searchTerm = null,
               CancellationToken cancellationToken = default);
+        Task<Cheque> GetChequeForEdit(int id, CancellationToken cancellationToken);
 
     }
 }

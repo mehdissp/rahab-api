@@ -263,6 +263,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "JWTApi.Api.Controllers.ChequesController",
+    "Method": "ResultChequesAsync",
+    "RelativePath": "api/Cheques/ResultChequesAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cheques",
+        "Type": "JWTApi.Application.DTOs.Cheques.ChequesViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "JWTApi.Api.Controllers.CompanyController",
     "Method": "Delete",
     "RelativePath": "api/Company/Delete",

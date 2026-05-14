@@ -77,8 +77,10 @@ namespace JWTApi.Infrastructure.Data
             {
                 b.HasKey(x => x.Id);
                 b.Property(x => x.Desc).HasMaxLength(250);
+                b.Property(x => x.DescriptionRowResult).HasMaxLength(350);
                 b.Property(x => x.SerialNumber).HasMaxLength(30);
                 b.Property(x => x.ChequeDate_Persion).HasMaxLength(10);
+                b.Property(x => x.ChequeDate_PersionResult).HasMaxLength(10);
                 b.Property(u => u.CreatedAt).HasDefaultValueSql("GETDATE()");          
                 b.Property(p => p.IsDeleted).HasDefaultValueSql("0");
                 // رابطه با AccountSide (برای AccountSideId)

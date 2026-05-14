@@ -1,5 +1,6 @@
 ﻿using JWTApi.Api.Response;
 using JWTApi.Api.ViewModels;
+using JWTApi.Application.DTOs.Cheques;
 using JWTApi.Application.Services.Cheques;
 using JWTApi.Application.Services.Financiales;
 using JWTApi.Application.Services.FinancialOperationses;
@@ -32,5 +33,14 @@ namespace JWTApi.Api.Controllers
             };
             return ResponseApi.Ok(response).ToHttpResponse();
         }
+
+        [HttpPost("ResultChequesAsync")]
+        public async Task<IActionResult> ResultChequesAsync([FromBody] ChequesViewModel cheques, CancellationToken cancellationToken)
+        {
+            var userId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
+            await _chequesService.UpdateResult(cheques, userId, cancellationToken);
+            return ResponseApi.Ok().ToHttpResponse();
+        }
+        
     }
 }

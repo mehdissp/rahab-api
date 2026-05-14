@@ -488,6 +488,37 @@
         }
       }
     },
+    "/api/Cheques/ResultChequesAsync": {
+      "post": {
+        "tags": [
+          "Cheques"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChequesViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChequesViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChequesViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Company/Insert": {
       "post": {
         "tags": [
@@ -1548,6 +1579,33 @@
           "desc": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChequesViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "chequeDateAccepts": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "chequeDatePersianAccepts": {
+            "type": "string",
+            "nullable": true
+          },
+          "desc": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeResult": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

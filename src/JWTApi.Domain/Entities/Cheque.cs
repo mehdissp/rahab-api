@@ -22,6 +22,10 @@ namespace JWTApi.Domain.Entities
         public Guid? UserEditor { get; set; }
         public DateTime? UpdatedAt { get; set; }
         public int FinancialOperationsId { get; set; }
+        public DateTime? ChequeDateResult { get; set; }
+        public string? ChequeDate_PersionResult { get; set; }
+        public string? DescriptionRowResult { get; set; }
+
         public FinancialOperations FinancialOperations { get; set; } = default!;
         public bool IsDeleted { get; set; } = false;
 
@@ -62,6 +66,19 @@ namespace JWTApi.Domain.Entities
             IsDeleted = true;
             UpdatedAt= DateTime.Now;
                 
+        }
+        public void UpdateResult(int id, PaymentChequeStatusEnum
+            paymentChequeStatus, DateTime? dateTimeResult,
+            string? dateTimeResult_Persion, Guid userId,string desc
+            )
+        {
+            Id= Id;
+            ChequeDateResult = dateTimeResult;
+            ChequeDate_PersionResult = dateTimeResult_Persion;
+            PaymentChequeStatus = paymentChequeStatus;
+            UserEditor = userId;
+            DescriptionRowResult= desc;
+            UpdatedAt = DateTime.Now;
         }
     }
 }
